@@ -1,0 +1,180 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section#accueil {
+    background-color: #e9f7e9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section#accueil h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+section#accueil p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+section#accueil .image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#avantages {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+section#avantages h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    text-align: center;
+}
+
+section#avantages ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+section#avantages ul li {
+    margin-bottom: 20px;
+}
+
+section#Commande {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+section#Commande h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    text-align: center;
+}
+
+section#Commande li {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+section#Commande .image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+/* Ajout pour la vidéo en arrière-plan */
+.video-background {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Hauteur pleine fenêtre */
+    color: white; /* Texte blanc sur la vidéo */
+    text-align: center;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Vidéo derrière le contenu */
+}
+
+.video-background .content {
+    position: relative;
+    z-index: 1; /* Texte au-dessus de la vidéo */
+    padding: 20px;
+}
+
+.video-background h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.video-background p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin: 20px 0;
+}
